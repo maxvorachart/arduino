@@ -21,7 +21,7 @@ AF_DCMotor motor_right(1,MOTOR12_1KHZ);
 
 void setup() {
   // put your setup code here, to run once:
-  // sonar sesor butt
+  // sonar sesor
   pinMode(TRIGGER_PIN, OUTPUT);
   pinMode(ECHO_PIN, INPUT);
   Serial.begin(9600);
